@@ -63,5 +63,9 @@ class TestNum2Roman < Minitest::Test
 		assert_equal('CD', 400.romanize())
 	end
 
+	def test_return_D_for_500
+		assert_equal('D', 500.romanize())
+	end
+
 
 end
