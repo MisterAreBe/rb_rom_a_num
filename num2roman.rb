@@ -2,6 +2,7 @@ class Integer
 
 	def romanize()
 		roman_numerals = {
+			'M' => 1000,
 			'CM' => 900,
 			'D' => 500,
 			'CD' => 400,
