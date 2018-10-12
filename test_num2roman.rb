@@ -43,5 +43,9 @@ class TestNum2Roman < Minitest::Test
 		assert_equal('XIV', 14.romanize())
 	end
 
+	def test_return_XL_for_40
+		assert_equal('XL', 40.romanize())
+	end
+
 
 end
