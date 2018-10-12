@@ -71,5 +71,9 @@ class TestNum2Roman < Minitest::Test
 		assert_equal('CM', 900.romanize())
 	end
 
+	def test_return_M_for_1000
+		assert_equal('M', 1000.romanize())
+	end
+
 
 end
