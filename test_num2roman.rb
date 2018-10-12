@@ -51,5 +51,9 @@ class TestNum2Roman < Minitest::Test
 		assert_equal('L', 50.romanize())
 	end
 
+	def test_return_XC_for_90
+		assert_equal('XC', 90.romanize())
+	end
+
 
 end
