@@ -15,4 +15,8 @@ class TestNum2Roman < Minitest::Test
 		assert_equal('I', 1.romanize())
 	end
 
+	def test_return_II_for_2
+		assert_equal('II', 2.romanize())
+	end
+
 end
