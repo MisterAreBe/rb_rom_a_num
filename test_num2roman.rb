@@ -27,4 +27,7 @@ class TestNum2Roman < Minitest::Test
 		assert_equal('V', 5.romanize())
 	end
 
+	def test_return_VII_for_7
+		assert_equal('VII', 7.romanize())
+	end
 end
