@@ -79,5 +79,9 @@ class TestNum2Roman < Minitest::Test
 		assert_equal('', 0.romanize())
 	end
 
+	def test_1582
+		assert_equal('MDLXXXII', 1582.romanize())
+	end
+
 
 end
