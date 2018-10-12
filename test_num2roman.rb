@@ -75,5 +75,9 @@ class TestNum2Roman < Minitest::Test
 		assert_equal('M', 1000.romanize())
 	end
 
+	def test_return_empty_string_for_0
+		assert_equal('', 0.romanize())
+	end
+
 
 end
