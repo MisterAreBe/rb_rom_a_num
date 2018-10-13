@@ -20,7 +20,7 @@ class Integer
 		roman = ''
 		roman_numerals.each do |key, value|
 			roman << key * (x / value)
-			x = x % value
+			x %= value
 		end
 		return roman
 	end
