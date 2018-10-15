@@ -23,4 +23,8 @@ class TestRoman2Num < Minitest::Test
         assert_equal(4, 'IV'.arabic_num())
     end
 
+    def test_return_5_for_V
+        assert_equal(5, 'V'.arabic_num())
+    end
+
 end
