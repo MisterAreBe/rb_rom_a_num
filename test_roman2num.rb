@@ -79,8 +79,8 @@ class TestRoman2Num < Minitest::Test
         assert_equal(1582, 'MDLXXXII'.arabic_num())
     end
 
-    def test_return_3109_for_MCMCDDXCCXLLIXXIVVI
-        assert_equal(3109, 'MCMCDDXCCXLLIXXIVVI'.arabic_num())
+    def test_return_3109_for_MCMDCDCXCLXLXIXVIV
+        assert_equal(3109, 'MCMDCDCXCLXLXIXVIVI'.arabic_num())
     end
 
     def test_return_3109_for_MMMCIX
