@@ -38,6 +38,10 @@ class TestRoman2Num < Minitest::Test
     def test_return_10_for_X
         assert_equal(10, 'X'.arabic_num())
     end
+    
+    def test_return_40_for_XL
+        assert_equal(40, 'XL'.arabic_num())
+    end
 
 
 end
