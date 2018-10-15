@@ -51,5 +51,8 @@ class TestRoman2Num < Minitest::Test
         assert_equal(90, 'XC'.arabic_num())
     end
 
+    def test_return_C_for_100
+        assert_equal(100, 'C'.arabic_num())
+    end
 
 end
