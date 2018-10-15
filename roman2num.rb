@@ -3,6 +3,7 @@ class String
     def arabic_num()
         arabic_numerals = {
             'XL' => 40,
+            'L' => 50,
             'IX' => 9,
             'X' => 10,
             'IV' => 4,
