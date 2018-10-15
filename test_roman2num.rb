@@ -72,7 +72,7 @@ class TestRoman2Num < Minitest::Test
     end
     
     def test_return_9001_for_MI
-        assert_equal(9001, 'MI'.arabic_num())
+        assert_equal(9001, 'MMMMMMMMMI'.arabic_num())
     end
 
 end
