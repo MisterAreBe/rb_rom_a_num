@@ -3,6 +3,7 @@ class String
     def arabic_num()
         arabic_numerals = {
             'IV' => 4,
+            'V' => 5,
             'I' => 1
         }
         x = self
