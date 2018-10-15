@@ -27,4 +27,9 @@ class TestRoman2Num < Minitest::Test
         assert_equal(5, 'V'.arabic_num())
     end
 
+    def test_return_8_for_VIII
+        assert_equal(8, 'VIII'.arabic_num())
+    end
+
+
 end
