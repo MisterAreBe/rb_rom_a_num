@@ -2,6 +2,7 @@ class String
 
     def arabic_num()
         arabic_numerals = {
+            'CM' => 900,
             'CD' => 400,
             'D' => 500,
             'XC' => 90,
