@@ -1,0 +1,42 @@
+body {
+    background-image: url(/images/roman_flag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: inset 0px 0px 20px 15px #a80000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header_link {
+    width: 100%;
+    height: 15%;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.link {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+.form_holder {
+    width: 87%;
+    height: 70%;
+    margin: 0 0 0 5%;
+    padding-top: 1.5rem;
+    text-align: center;
+    background-color: #0042abad;
+}
+.number {
+    width: 100%;
+    height: 10%;
+    display:block;
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 3rem;
+    
+}
