@@ -13,3 +13,14 @@ post '/romanize' do
   session[:roman_numeral] = temp.romanize()
   redirect '/'
 end
+
+get '/deroman' do
+  arabic_number = session[:arabic_number] || ''
+  erb :deroman, :layout => :layout, locals: {arabic_number: arabic_number}
+end
+
+post '/deromanize' do
+  temp = params[:to_arabic]
+  session[:arabic_number] = temp.deroman()
+  redirect '/deroman'
+end

@@ -22,7 +22,7 @@ class String
     end
 
     def deroman()
-        x = self
+        x = self.upcase!
         x.each_char do |v|
             if !arabic_numerals().has_key?(v)
                 return 'Error: Non-Roman Numerals Entered'
