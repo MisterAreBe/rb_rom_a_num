@@ -87,8 +87,8 @@ class TestRoman2Num < Minitest::Test
         assert_equal(3109, 'MMMCIX'.arabic_num())
     end
 
-    def test_function_returns_strin
-        assert_equal(String, ''.deroman().class)
+    def test_function_returns_string
+        assert_equal(String, 'tater'.deroman().class)
     end
 
     def test_return_error_for_non_romans
@@ -98,6 +98,6 @@ class TestRoman2Num < Minitest::Test
     def test_deroman_runs_arabic_num
         assert_equal(152, 'CLII'.deroman())
     end
-    
+
 
 end
