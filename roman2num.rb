@@ -29,6 +29,6 @@ class String
     end
 
     def deroman()
-        ''
+        'Error: Non-Roman Numerals Entered'
     end
 end
