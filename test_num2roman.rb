@@ -86,4 +86,8 @@ class TestNum2Roman < Minitest::Test
 	def test_3109
 		assert_equal('MMMCIX', 3109.romanize())
 	end
+
+	def test_scott
+		assert_equal('', 98643255778.romanize())
+	end
 end

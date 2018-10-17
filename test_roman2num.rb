@@ -86,5 +86,4 @@ class TestRoman2Num < Minitest::Test
     def test_return_3109_for_MMMCIX
         assert_equal(3109, 'MMMCIX'.arabic_num())
     end
-
 end
