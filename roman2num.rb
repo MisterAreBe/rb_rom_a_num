@@ -27,4 +27,8 @@ class String
         num_holder.each {|v| num += v}
         return num
     end
+
+    def deroman()
+        ''
+    end
 end
