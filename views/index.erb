@@ -1,0 +1,13 @@
+<title>RBs Roman Converter</title>
+<div>
+    <a href='/deroman'>Want to De-Romanize?</a>
+</div>
+<div>
+    <form method='post' action='/romanize'>
+        <input type='number' name='to_roman' min='1' max='999999999' required>
+        <input type='submit' value='Romanize!'>
+    </form>
+    <div style='display: block; background-color: cyan;'>
+        <%= roman_numeral %>
+    </div>
+</div>
