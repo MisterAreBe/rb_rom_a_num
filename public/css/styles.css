@@ -38,5 +38,20 @@ body {
     color: #ffffff;
     font-weight: 500;
     font-size: 3rem;
-    
+    letter-spacing: 0.5rem;
+}
+input[type='submit'] {
+    background-color: #a80000b9;
+    border-radius: 5rem;
+    color: #ffffff;
+    border-color: #a80000;
+    font-size: 1.2rem;
+}
+input[type='number'],
+input[type='test'] {
+    background-color: #a80000b9;
+    border-radius: 5rem;
+    color: #ffffff;
+    border-color: #a80000;
+    font-size: 1.2rem;
 }
