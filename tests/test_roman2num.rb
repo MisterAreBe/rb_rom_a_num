@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "roman2num.rb"
+require_relative "../roman2num.rb"
 
 class TestRoman2Num < Minitest::Test
 
@@ -85,5 +85,9 @@ class TestRoman2Num < Minitest::Test
 
     def test_return_3109_for_MMMCIX
         assert_equal(3109, 'MMMCIX'.arabic_num())
+    end
+
+    def test_return_error_for_non_romans
+        assert_equal('Error: Non-Roman Numerals Entered', 'bob'.deroman())
     end
 end

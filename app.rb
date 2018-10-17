@@ -1,4 +1,5 @@
 require 'sinatra'
+require_relative 'require_me.rb'
 
 enable :sessions
 
