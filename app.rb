@@ -4,12 +4,12 @@ require_relative 'require_me.rb'
 enable :sessions
 
 get '/' do
+  session[:arabic_number] = ''
   roman_numeral = session[:roman_numeral] || ''
   erb :index, :layout => :layout, locals: {roman_numeral: roman_numeral}
 end
 
 post '/romanize' do
-  session[:arabic_number] = ''
   temp = params[:to_roman].to_i
   session[:roman_numeral] = temp.romanize()
   redirect '/'
