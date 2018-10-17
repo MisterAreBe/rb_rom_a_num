@@ -2,7 +2,7 @@ body {
     background-image: url(/images/roman_flag.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     box-shadow: inset 0px 0px 20px 15px #a80000;
     margin: 0;
     padding: 0;
@@ -13,13 +13,18 @@ body {
     height: 15%;
     font-weight: 500;
     font-family: Roboto, sans-serif;
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: center;
     padding-top: 1.5rem;
 }
 .link {
     text-decoration: none;
     color: #1b1b1b;
+    text-shadow: 
+    1px 1px 1px #ffffff,
+    -1px -1px 1px #ffffff,
+    1px -1px 1px #ffffff,
+    1px -1px 1px #ffffff;
 }
 .form_holder {
     width: 87%;
@@ -47,8 +52,11 @@ input[type='submit'] {
     border-color: #a80000;
     font-size: 1.2rem;
 }
+input[type='submit']:hover {
+    cursor: pointer;
+}
 input[type='number'],
-input[type='test'] {
+input[type='text'] {
     background-color: #a80000b9;
     border-radius: 5rem;
     color: #ffffff;
