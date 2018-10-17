@@ -87,7 +87,7 @@ class TestRoman2Num < Minitest::Test
         assert_equal(3109, 'MMMCIX'.arabic_num())
     end
 
-    def test_return_error_for_non_romans
-        assert_equal('Error: Non-Roman Numerals Entered', 'bob'.deroman())
+    def test_function_returns_strin
+        assert_equal(String, ''.deroman().class)
     end
 end
